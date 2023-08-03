@@ -18,7 +18,7 @@ from pathlib import Path
 # real params V100: --inputfolder /home/oracle/open_subtitles/files --outputfolder /home/oracle/open_subtitles_output
 
 
-processed_languages = ['spa']  # ['spa', 'cat', 'baq', 'glg']
+processed_languages = ['spa', 'cat', 'baq', 'glg']
 timeThreshold = timedelta(seconds=1)
 
 # reg expr
@@ -31,7 +31,7 @@ BEGIN_DIALOG2 = re.compile(r'\n\s*-+\s*')
 MULTI_SPACES = re.compile('[ \t]+')
 
 #debug = False
-debug = True
+debug = False
 
 
 def is_time_line(line):
@@ -233,6 +233,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--inputfolder', type=str, required=True)
     parser.add_argument('--outputfolder', type=str, required=True)
+    parser.add_argument('--lang', type=str, required=True)
     args = parser.parse_args()
 
     # read metadata
