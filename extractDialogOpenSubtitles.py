@@ -8,15 +8,6 @@ import argparse
 import multiprocessing as mp
 from pathlib import Path
 
-# TODO from tqdm import tqdm
-
-
-# test params: --inputfolder sample_data --outputfolder sample_output
-# test params: --inputfolder /Users/dpfernandez/PycharmProjects/processOpenSubtotles/sample_data --outputfolder /Users/dpfernandez/PycharmProjects/processOpenSubtotles/sample_output
-
-# real params: --inputfolder /Users/dpfernandez/DATA/open_subtitles --outputfolder /Users/dpfernandez/DATA/open_subtitles_output
-# real params V100: --inputfolder /home/oracle/open_subtitles/files --outputfolder /home/oracle/open_subtitles_output
-
 
 processed_languages = ['spa', 'cat', 'baq', 'glg']
 timeThreshold = timedelta(seconds=1)

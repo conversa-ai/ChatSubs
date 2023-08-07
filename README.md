@@ -18,4 +18,4 @@ python extractDialogOpenSubtitles.py --inputfolder input_folder --outputfolder o
 
 ## References
 
-This dataset and publication is a result of the project CONVERSA (TED2021-132470B-I00) funded by MCIN/AEI /10.13039/501100011033 and by "European Union NextGenerationEU/PRTR"
+This dataset and publication is a result of the project CONVERSA (TED2021-132470B-I00) funded by MCIN/AEI /10.13039/501100011033 and by "European Union NextGenerationEU/PRTR".
