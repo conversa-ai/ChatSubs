@@ -1,0 +1,1 @@
+# CPython 3.11. OpenSubtitles rehydration uses the Python standard library only.

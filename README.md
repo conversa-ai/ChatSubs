@@ -19,3 +19,7 @@ python extractDialogOpenSubtitles.py --inputfolder input_folder --outputfolder o
 ## References
 
 This dataset and publication is a result of the project CONVERSA (TED2021-132470B-I00) funded by MCIN/AEI /10.13039/501100011033 and by "European Union NextGenerationEU/PRTR".
+
+## Version 1.3 rehydration
+
+See [README-rehydration.md](README-rehydration.md) for the bounded standalone tool, exact-match checks, dependency requirements and synthetic tests. This addition does not relicense the earlier extraction code.
